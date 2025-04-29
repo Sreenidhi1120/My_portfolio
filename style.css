@@ -1,0 +1,201 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Section */
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    color: #201f1f;
+    margin-bottom: 20px;
+}
+
+/* Welcome */
+#welcome {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.welcome-content {
+    background: #e8f0fe;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* About Blocks */
+.about-block {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 5px solid #2575fc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+/* Style for project images */
+.project-image {
+    width: 100%;
+    max-width: 500px; /* Adjust the size as per your preference */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Portfolio grid layout */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Improve portfolio item hover */
+.portfolio-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Improve buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #85a7b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #4a7c8a;
+    transform: scale(1.05);
+}
+
+/* Style for the video inside the portfolio */
+.portfolio-video {
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Social Links styling */
+.social-link {
+    color: #6497ab;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #4a7c8a;
+    text-decoration: underline;
+}
+
+/* Center the CTA section */
+.cta-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow them to wrap to next line if needed */
+    justify-content: center; /* Center them horizontally */
+    gap: 40px; /* Space between cards */
+    margin: 50px 0;
+}
+
+
+/* Each CTA block */
+.cta-block {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Floating effect */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Hover animation for the floating effect */
+.cta-block:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Update buttons inside CTA */
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5dade2; /* Button Color */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px;
+}
+
+/* Hover effect for buttons */
+.cta-block .btn:hover {
+    background-color: #1a5cb8;
+    transform: scale(1.05);
+}
+
+
+/* Minor improvement for the Contact Me section */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
